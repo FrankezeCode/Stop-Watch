@@ -1,0 +1,57 @@
+body{
+    background-color: #98bef0;
+    color: black;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.stopWatch{
+  background-color: #fff;
+  position: absolute;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin: auto auto ;
+  width: 402px;
+  height: 186px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+.digit{
+    width: 55px;
+}
+
+.digit-space{
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.controls{
+    margin: 0 auto;
+    width: 262px;
+    display: block;
+    clear: both;
+}
+
+.controls button{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.controls button:hover{
+    background-color: #98bef0;
+    border: 2px solid #98bef0;
+    color: #fff;
+}
